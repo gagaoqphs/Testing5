@@ -3,7 +3,7 @@ from tg_bot import from telethon import events
 from tg_bot import oko
 
 """Triggers start command in pm and in groupchats"""
-def luffybot(**args):
+def kazutobot(**args):
     """New message."""
     pattern = args.get('pattern', None)
     r_pattern = r'^[/!]'
@@ -62,7 +62,7 @@ def chataction(**args):
 
 
 """Triggers start command in pm and in groupchats"""
-def luffybot(**args):
+def kazutobot(**args):
     """New message."""
     pattern = args.get('pattern', None)
     r_pattern = r'^[/!]'
