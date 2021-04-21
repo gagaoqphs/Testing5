@@ -49,7 +49,7 @@ Hello! my name *{}*[.](https://telegra.ph/file/914bcc3244b0114264a25.jpg)
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/d61fd4359666cf7730015.jpg"
+TECHNO_IMG = "https://telegra.ph/file/dde33437d05f05593c6ca.mp4"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -150,7 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Abe Jatuu Main jinda Hun")
+        update.effective_message.reply_text("My Sword Is Still Running ⚡")
 
 
 def send_start(bot, update):
