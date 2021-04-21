@@ -26,7 +26,8 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hello {}, My Name is {}!** 
+**Hello {}
+My Name is {}** 
 I am a Powerful Sworder From " SWORD ART ONLINE ".
 You can find the list of available commands with /help.
 
@@ -49,7 +50,7 @@ Hello! my name *{}*[.](https://telegra.ph/file/914bcc3244b0114264a25.jpg)
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/dde33437d05f05593c6ca.mp4"
+TECHNO_IMG = "https://telegra.ph/file/2956994fc8bacc0d1bedb.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
