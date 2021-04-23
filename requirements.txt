@@ -66,3 +66,4 @@ cryptography
 pymongo
 pykeyboard
 spamwatch
+redis
